@@ -1,0 +1,12 @@
+{
+    "batches": [
+        {
+            "name": "2024",
+            "students": ["Ketan", "Sharvesh"]
+        },
+        {
+            "name": "2025",
+            "students": ["Zaid", "Faizal"]
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+.dashboard-container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+/* Logout button at the top-right corner */
+.logout-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #dc3545;
+    color: white;
+    padding: 8px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background-color: #c82333;
+}
+
+/* Align Batch and Name vertically */
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+select {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Make button sizes proper */
+button {
+    width: 150px;
+    padding: 8px 0;
+    margin: 5px 0;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.submit-btn:hover {
+    background-color: #218838;
+}
+
+.add-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.add-btn:hover {
+    background-color: #0056b3;
+}
+
+.attendance-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.attendance-list li {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
