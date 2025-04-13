@@ -1,5 +1,5 @@
 import { TextField } from '@mui/material';
-import moment from 'moment';
+import dayjs from 'dayjs';
 import { useState } from 'react';
 import { Toaster, toast } from 'react-hot-toast';
 
@@ -11,7 +11,7 @@ function Home() {
     const data = rows.map(row => ({
       taskPerformed: row.task,
       timeSpent: row.timeSpend,
-      date: moment().format('DD-MM-YYYY')
+      date: dayjs().format('DD-MM-YYYY')
     }));
     console.log(data);
 
